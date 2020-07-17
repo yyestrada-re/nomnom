@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap');
 
 @font-face {
   font-family: LeagueSpartan;
@@ -81,28 +82,6 @@ h2 {
   font-family: LeagueSpartan;
 }
 
-svg{
-  width: 100px;
-  height: 100px;
-  margin: 20px;
-  display:inline-block;
-}
-
-/*top, right, bottom, left */
-
-.gradient-underline {
-  background-image: linear-gradient(-110deg,#e1f549,#29d0be,#6cb8ea,#ff5959);
-  background-position: 0 1em;
-  background-repeat: repeat-x;
-  display: inline;
-}
-
-.gradient-text {
-	background-image: linear-gradient(to left, #a6c0fe 0, #f68084 70%); /* #a6c0fe 0%, #f68084 100%); */
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
 
 .nav-logo {
   height: 65px;
@@ -165,8 +144,8 @@ svg{
 
 .white {
   position: relative;
-  padding: 40px 70px;
-  background-color: #fff;
+  /*padding: 40px 70px;
+  background-color: #fff;*/
   color: #141414;
 }
 
@@ -215,12 +194,6 @@ h3 {
   margin-top: -3vh;
 }
 
-.card p {
-  font-family: GlacialIndifference-Reg;
-  letter-spacing: .013em;
-  line-height: 1.5;
-}
-
 .footer-img {
   width: 180px;
 }
@@ -234,8 +207,6 @@ h3 {
   font-family: 'Source Code Pro', sans-serif;
   font-weight: 600;
 }
-
-
 
 .texts {
     color: white;
