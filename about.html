@@ -18,7 +18,7 @@
     <title>Nom Nom: About</title>
   </head>
 
-  <body style = "background-image: url(assets/produce.jpg); background-repeat: no-repeat; background-size: cover; background-position: top;">
+  <body>
     <header style = "max-height: fit-content;">
       <nav class = "navbar">
         <a href = "index.html"><img class = "nav-logo" src = "assets/resize.png"></a>
@@ -30,17 +30,20 @@
           </li>
         </ul>
       </nav>
+      <video playsinline = "playsinline" autoplay = "autoplay" muted = "muted" loop = "loop">
+        <source src = "assets/plants.mp4" type = "video/mp4">
+    </video>
       <!--div style = "text-align: center!important; padding-top: 20%; padding-bottom: 10%">
         <h1 class = "overlay"><i>food shouldn't have to be a luxury</i></h1>
       </div>-->
     </header>
     <h1 class = "title"></h1>
-    <article>
-      <div class = "page-content" style = "background-color: white;">
+    <article class = "white">
+      <div class = "page-content">
         <!--#44541C-->
-        <section style = "padding: 50px 70px;">
+        <div style = "border-bottom: 1px solid hsla(0,0%,8%,.2);">
             <p class = "header-subtext" style = "border-bottom: none; padding-bottom: 0px;">
-              Combating Food Insecurity, One Kit At A Time: 🌿
+              Combating Food Insecurity, One Kit At A Time: 📦
             </p>
             <p class = "text">
               We are Nom Nom: a student-run social-impact-based venture targeting food insecurity and food deserts in urban areas.
@@ -49,42 +52,64 @@
               Nom Nom offers the accessibility and efficiency of a self-managed and sustainable solution to the lack of fresh produce, right to your door.
               <br><br>
               Our solution? A low-cost, easy-to-use hydroponics gardening kit, that helps food insecure families 
-              grow their own fresh produce in the comfort of their home! Not only does our hydroponics gardening kit come with
+              grow their own fresh produce from the comfort of their home! Not only does our hydroponics gardening kit come with
               all the necessary materials needed to grow your own produce, it comes with educational resources and healthy recipes you can make at home with the plants you may grow!
             </p>
-        </section>
-        <!---
-        <section style = "background-color: #44541C; padding: 50px 70px;">
+            <br>
+        </div>
+        <br>
+        <div>
+            <p class = "header-subtext" style = "border-bottom: none; padding-bottom: 0px; text-align: center; ">
+              Why Hydroponics? 🌿
+            </p>
+            <br>
+            <div class = "benefits"">
+              <h3>Less Space-Intensive 🏠</h3>
+              <p class = "text">Hydroponics require 20% less space than soil-based plants -- meaning that you can grow your plants indoors or in otherwise very small spaces! 
+                The reason they require less space mainly has to do with the fact that unlike soil-based plants, water and nutrients are delivered
+                to the roots directly.
+              </p>
+            </div>
+            <div class = "benefits">
+              <h3>Less Labor-Intensive ☀️</h3>
+              <p class = "text">Since hydroponics systems are mostly automated, the labor involved in cultivating plants is considerably reduced.
+                Unlike soil-based gardens, there's less watering involved, no pests or weeds to combat, and no soil-handling to worry about, leaving you with more
+                time to focus on the things that really matter.
+              </p>
+            </div>
+            <div class = "benefits">
+              <h3>Higher, Faster Yield 🏃‍♂️🌱</h3>
+              <p class = "text">Hydroponic plants produce a greater yield of fruits and vegetables, in contrast to soil-based gardens. This is because in a hydroponic system,
+                plants are more densely spaced together and many of the variables that enhance plant growth (pH, light, nutrients, etc) can be controlled!
+              </p>
+            </div>
+          </div>
+          <br>
+          <div style = "border-top: 1px solid hsla(0,0%,8%,.2);">
+            <br>
             <p class = "header-subtext" style = "border-bottom: none; padding-bottom: 0px;">
-              Combating Food Insecurity, One Kit At A Time: 🌿
+              Peeked Your Interest? 🌻
             </p>
             <p class = "text">
-              We are Nom Nom: a student-run social-impact-based venture targeting food insecurity and food deserts in urban areas.
-              Central to our ethos is the firm belief that anyone, regardless of race, gender, age, or socioeconomic status, deserves the right to have a stable and nutritious food source. 
-              Unlike food banks, community gardens, and communal fridges/pantries that require extensive volunteers and time in order to manage, 
-              Nom Nom offers the accessibility and efficiency of a self-managed and sustainable solution to the lack of fresh produce, right to your door.
-              <br><br>
-              Our solution? A low-cost, easy-to-use hydroponics gardening kit, that helps food insecure families 
-              grow their own fresh produce in the comfort of their home! Not only does our hydroponics gardening kit come with
-              all the necessary materials needed to grow your own produce, it comes with educational resources and healthy recipes you can make at home with the plants you may grow!
+              We're glad to hear that! Subscribe below to stay updated with new developments, as well as be notified when the first batch of kits will arrive -- <i>and we promise never to spam!</i>
             </p>
-        </section>
-    -->
+            <br>
+            <button id="signup" onclick = "window.open('https://forms.gle/JuT1oMxLsQKU7wMD7','_blank');">Get Updates</button>
+            <br>
+        </div>
       </div>
     </article>
     <footer>
       <div class = "col" style = "float: left">
         <img src = "assets/resize.png" class = "footer-img"/>
-        <h4 style = "letter-spacing: 0.01em; font-weight: 300; line-height: 2.1; font-family: 'Open Sans';">A student-run, social-impact-based venture targeting food insecurity in urban areas.</h4>
+        <h4 style = "letter-spacing: 0.01em; font-weight: 300; line-height: 2.1;">A student-run, social-impact-based venture targeting food insecurity in urban areas.</h4>
       </div>
       <div class = "col" style = "float: right; display: inline-block; margin-top: 15px; text-align: right">
         <img src = "assets/contact.png" class = "nav-logo" style = "height: 45px;">
-        <a style = "font-family: 'Open Sans'; color: white; display: block; text-decoration: none; margin-left: 30px; margin-top: 20px; letter-spacing: 0.02em; font-weight: 300; line-height: 2.1;" href="mailto:team@nomnom.live?" target="_blank">
-          <i class="fas fa-envelope" aria-hidden="true"></i>
+        <a style = "color: white; display: block; text-decoration: none; margin-left: 30px; margin-top: 20px; letter-spacing: 0.02em; font-weight: 300; line-height: 2.1;" href="mailto:team@nomnom.live" target="_blank">
           team@nomnom.live
         </a>
-        <a style = "font-family: 'Open Sans'; color: white; display: block; text-decoration: none; margin-left: 30px; margin-top: 20px; letter-spacing: 0.02em; font-weight: 300; line-height: 2.1;" href="https://www.instagram.com/nomnom.live/" target="_blank">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
+        <a style = "color: white; display: block; text-decoration: none; margin-left: 30px; margin-top: 20px; letter-spacing: 0.02em; font-weight: 300; line-height: 2.1;" href="https://www.instagram.com/nomnom.live/" target="_blank">
           @nomnom.live
         </a>
       </div>
